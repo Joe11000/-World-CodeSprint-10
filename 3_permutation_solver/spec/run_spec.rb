@@ -37,29 +37,3 @@ RSpec.describe Object do
     end
   end
 end
-
-
-# sort it
-  # if sorted has entry doesn't exist
-    # check to see if it is the new highest value
-
-    # if highest val
-
-    # if == highest val
-
-  # if sorted entry exists
-    # add new permutation to solution array
-
-
-[21, 19] # no
-[21, 22] # yes
-[21, 20] # yes
-[19, 21] # no
-[19, 22] # no
-[19, 20] # no
-# [22, 21] # yes
-[22, 19] # no
-[22, 20] # yes
-# [20, 21] # yes
-[20, 19] # no
-# [20, 22] # yes

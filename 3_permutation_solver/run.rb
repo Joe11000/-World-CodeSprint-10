@@ -63,14 +63,12 @@ class PermutationSolver
 end
 
 
-n, k = gets.strip.split(' ')
-n = n.to_i
-k = k.to_i
-a = Array.new(n)
-for a_i in (0..n-1)
-    a[a_i] = gets.strip.to_i
-end
-result = solve(n, k, a)
-print result.join("\n")
-
-
+# n, k = gets.strip.split(' ')
+# n = n.to_i
+# k = k.to_i
+# a = Array.new(n)
+# for a_i in (0..n-1)
+#     a[a_i] = gets.strip.to_i
+# end
+# result = solve(n, k, a)
+# print result.join("\n")

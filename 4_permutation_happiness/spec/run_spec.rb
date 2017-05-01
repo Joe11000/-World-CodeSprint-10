@@ -1,7 +1,6 @@
 require'spec_helper'
 require_relative '../run'
 
-
 RSpec.describe Object do
   context '@query' do
 
@@ -26,6 +25,7 @@ RSpec.describe Object do
     end
   end
 
+
   xcontext '@factorial' do
     it 'works' do
       expect(factorial(0)).to eq 1
@@ -46,7 +46,6 @@ RSpec.describe Object do
       expect(factorial(4)).to eq 24
     end
   end
-
 
   xcontext '@factorial' do
     context 'edge cases' do
